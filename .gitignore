@@ -1,0 +1,44 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Historical market data
+research/bars/
+research/bars_refresh*/
+research/ticks/
+
+# Generated research output and models
+research/out/
+research/models/
+
+# Backup files
+*.before_*
+*.bak
+*.backup
+
+# Temporary patch files
+*.patch
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Accidental terminal-output files
+/git
+/orb-ai-research*
